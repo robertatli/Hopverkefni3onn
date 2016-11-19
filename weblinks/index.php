@@ -10,9 +10,21 @@
 
 <body>
 	<div class="scroll">
-	<div class="in-scroll">
-		<h2>Welcome people</h2>
-	</div>
+		<div class="wrapper">
+			<header>
+				<h2>Choose your Hero!</h2>
+			</header>
+			<div class="Gender">
+				<a href="kallar.php">
+					<img src="./pixels/big/GenericMaleLarge.png">
+				</a>
+				<a href="konur.php">
+					<img src="./pixels/big/GenericFemaleLarge.png">
+				</a>
+			</div>
+			<h3>Male&nbsp;&nbsp; - &nbsp;&nbsp;Female</h3>
+			
+		</div>			
 	</div>
 </body>
 </html>
