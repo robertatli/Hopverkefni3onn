@@ -31,6 +31,11 @@ h3{
 	font-family: 'Merchant-Copy-Large';
 	font-size: 30px;
 }
+a{
+	text-decoration: none;
+	color: black;
+	cursor: url('../auka/cursor.ico'), default;
+}
 .wrapper {
   display: -webkit-box;
   display: -moz-box;

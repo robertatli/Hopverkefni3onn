@@ -22,7 +22,7 @@
 					<img src="./pixels/big/GenericFemaleLarge.png">
 				</a>
 			</div>
-			<h3>Male&nbsp;&nbsp; - &nbsp;&nbsp;Female</h3>
+			<h3><a href="kallar.php">Male</a>&nbsp;&nbsp; - &nbsp;&nbsp;<a href="konur.php">Female</a></h3>
 			
 		</div>			
 	</div>
