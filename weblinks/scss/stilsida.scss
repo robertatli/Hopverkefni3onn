@@ -6,8 +6,10 @@ body{
 	cursor: url('../auka/cursor.ico'), default;
 }
 @font-face{
-  font-family: 'Merchant-Copy-Normal';
-  src: url('../auka/Merchant Copy.ttf');
+	font-family: 'Merchant-Copy-Normal';
+  	src: url('../auka/Merchant Copy.ttf');
+}
+@font-face{
   font-family: 'Merchant-Copy-Large';
   src: url('../auka/Merchant Copy Doublesize.ttf');
 }
@@ -30,6 +32,7 @@ h2{
 h3{
 	font-family: 'Merchant-Copy-Large';
 	font-size: 30px;
+	margin-top: 0;
 }
 a{
 	text-decoration: none;
@@ -57,5 +60,21 @@ img{
 	width: 240px;
 	height: 240px;
 }
-
+.textmanager{
+	font-family:'Merchant-Copy-Normal',;
+	font-size: 30px;
+	max-width: 680px;
+	margin-left:135px; 
+}
+.button{
+	background-image: url("../pixels/button.png");
+	background-size: 100% 100%;
+    border: 3px solid #4c3214;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+}
 }/*-----Endir media 1180px-----*/

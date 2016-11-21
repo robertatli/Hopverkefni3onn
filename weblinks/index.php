@@ -15,14 +15,14 @@
 				<h2>Choose your Hero!</h2>
 			</header>
 			<div class="Gender">
-				<a href="kallar.php">
+				<a href="./IndexFolder/Sida1.php">
 					<img src="./pixels/big/GenericMaleLarge.png">
 				</a>
-				<a href="konur.php">
+				<a href="./IndexFolder/Sida1.php">
 					<img src="./pixels/big/GenericFemaleLarge.png">
 				</a>
 			</div>
-			<h3><a href="kallar.php">Male</a>&nbsp;&nbsp; - &nbsp;&nbsp;<a href="konur.php">Female</a></h3>
+			<h3><a href="./IndexFolder/Sida1.php">Male</a>&nbsp;&nbsp; - &nbsp;&nbsp;<a href=".IndexFolder/Sida1.php">Female</a></h3>
 			
 		</div>			
 	</div>

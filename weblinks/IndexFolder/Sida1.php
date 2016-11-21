@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/stilsida.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+	<div class="scroll">
+		<div class="wrapper">
+			<div class="textmanager">
+			<header>
+				<h3>Prologue</h3>
+			</header>
+				Once there was a mighty King that ruled the lands of Garonril. He was a great King and fought to defend his land from the horroring invaders. He fought so well that all who faced him fell by his might with the sword, untill he was faced by a young girl named Saari. The girl possesed magical powers unmatched by any who faced her.The King fought valiantly and inflicted many deep wounds. The girl was shocked by The Kings might, She had never faced such a worthy foe. She fought with all her power untill she managed to knock The Kings sword from him. The King knew that he was powerless without the sword.  The king fell by her hand and so his kingdom too fell into ruins and his people forced into slavery by The New Queen.
+				
+			</div>
+			<form action="./sida2.php">
+    			<strong><input type="submit" value="Begin" class="button" /></strong>
+			</form>
+		</div>			
+	</div>
+</body>
+</html>
