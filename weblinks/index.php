@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="./css/stilsida.css">
 	<link rel="stylesheet" href="./css/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./auka/hover.js"></script>
     <title></title>
 </head>
 
@@ -16,10 +17,10 @@
 			</header>
 			<div class="Gender">
 				<a href="./IndexFolder/Sida1.php">
-					<img src="./pixels/big/GenericMaleLarge.png">
+					<img src="./pixels/big/GenericMaleLarge.png" onmouseover="this.src='./pixels/big/GenericMaleLargeHover.png'" onmouseout="this.src='./pixels/big/GenericMaleLarge.png'">
 				</a>
 				<a href="./IndexFolder/Sida1.php">
-					<img src="./pixels/big/GenericFemaleLarge.png">
+					<img src="./pixels/big/GenericFemaleLarge.png" onmouseover="this.src='./pixels/big/GenericFemaleLargeHover.png'" onmouseout="this.src='./pixels/big/GenericFemaleLarge.png'">
 				</a>
 			</div>
 			<h3><a href="./IndexFolder/Sida1.php">Male</a>&nbsp;&nbsp; - &nbsp;&nbsp;<a href=".IndexFolder/Sida1.php">Female</a></h3>
