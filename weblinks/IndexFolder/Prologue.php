@@ -21,7 +21,7 @@
 			<br><br><br>
 			<br><br><br>
 			<br><br><br>
-			<form action="./SidaSagabyrjar.php">
+			<form action="./chapter1.1.php">
     			<strong><input type="submit" value="Begin" class="button" /></strong>
 			</form>
 		</div>			

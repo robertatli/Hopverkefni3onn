@@ -17,10 +17,10 @@
 			</header>
 			They tell you that you have to go east to find the cave, you thank them and head your way on the road heading east.<br><br> After some time you come to a crossroad. The road to the left seems to lead to a lake. You think that there must be someone to ask directions there. The road to the right leads to a large hill. You think that the cave might be in the hill.<br><br> Will you go to the lake or the large hill?<br><br><br>
 				<div class="Gender">
-				<a href="./IndexFolder/Sida1.php">
+				<a href="./Chapter1.3[lake].php">
 					<img src="../pixels/lake.png" onmouseover="this.src='../pixels/lakehover.png'" onmouseout="this.src='../pixels/lake.png'">
 				</a>
-				<a href="./IndexFolder/Sida1.php">
+				<a href="./Chapter1.3[hill].php">
 					<img src="../pixels/hill.png" onmouseover="this.src='../pixels/hillhover.png'" onmouseout="this.src='../pixels/hill.png'">
 				</a>
 				</div>
