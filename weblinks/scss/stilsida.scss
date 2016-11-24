@@ -101,4 +101,27 @@ img{
     display: inline-block;
     font-size: 36px;
 }
+div.speech {
+    background-color: #bfac72;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #9a8543;
+    display: inline-block;
+    padding: 7px 18px;
+    position: relative;
+    vertical-align: top;
+}
+div.speech::before {
+    background-color: #bfac72;
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
 }/*-----Endir media 1180px-----*/

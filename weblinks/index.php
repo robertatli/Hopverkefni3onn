@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+  	<script type="../auka/jquery-3.1.1.min.js"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/stilsida.css">
 	<link rel="stylesheet" href="./css/normalize.css">
