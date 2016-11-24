@@ -16,14 +16,14 @@
 				<h2>Choose your Hero!</h2>
 			</header>
 			<div class="Gender">
-				<a href="./IndexFolder/Sida1.php">
+				<a href="./IndexFolder/Prologue.php">
 					<img src="./pixels/big/GenericMaleLarge.png" onmouseover="this.src='./pixels/big/GenericMaleLargeHover.png'" onmouseout="this.src='./pixels/big/GenericMaleLarge.png'">
 				</a>
-				<a href="./IndexFolder/Sida1.php">
+				<a href="./IndexFolder/Prologue.php">
 					<img src="./pixels/big/GenericFemaleLarge.png" onmouseover="this.src='./pixels/big/GenericFemaleLargeHover.png'" onmouseout="this.src='./pixels/big/GenericFemaleLarge.png'">
 				</a>
 			</div>
-			<h3><a href="./IndexFolder/Sida1.php">Male</a>&nbsp;&nbsp; - &nbsp;&nbsp;<a href=".IndexFolder/Sida1.php">Female</a></h3>
+			<h3><a href="./IndexFolder/Prologue.php">Male</a>&nbsp;&nbsp; - &nbsp;&nbsp;<a href=".IndexFolder/prologue.php">Female</a></h3>
 			
 		</div>			
 	</div>
