@@ -13,7 +13,7 @@ body{
   font-family: 'Merchant-Copy-Large';
   src: url('../auka/Merchant Copy Doublesize.ttf');
 }
-@media all and (min-width: 1180px){
+
 
 
 div.scroll{
@@ -123,5 +123,29 @@ div.speech::before {
         -webkit-transform: rotate( 29deg ) skew( -35deg );
     width:  20px;
 }
-
-}/*-----Endir media 1180px-----*/
+div.speech2{
+	background-color:#ae9b61;
+	float:left;
+	box-shadow: 1px 1px 6px #897432;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 7px 18px;
+    position: relative;
+    vertical-align: top;
+}
+div.speech2::before {
+    background-color: #bfac72;
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+div.speech2:hover{
+	background-color: #bfac72;
+}
