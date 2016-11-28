@@ -1,0 +1,60 @@
+var showText = function (target, message, index, interval) {    
+			  	if (index < message.length) { 
+			    	$(target).append(message[index++]); 
+			    		setTimeout(function () { showText(target, message, index, interval); }, interval); 
+			  		} 
+			}
+			    
+
+			$(function () { 
+			 
+			  showText("#msg", "Hello my name's Willy!, What can I do for you?", 0, 55);
+			  document.getElementById('wait').style.display = "none";
+			  document.getElementById('wait2').style.display = "none";
+			  
+
+			  setTimeout(function(){
+			  document.getElementById('wait').style.display = "inline-block";
+			  document.getElementById('wait2').style.display = "inline-block";
+
+			  showText("#option01", "adsasd", 0, 55); 
+			  showText("#option02", "asdsdad", 0, 55);
+			  $("#option01").html("");$("#option02").html("");  
+			}, 3000);
+				  
+			     
+			 
+			});
+			function show() {	
+				
+				
+					
+					var msg =" virkar";
+
+
+			  		document.getElementById('wait').style.display = "none";
+					document.getElementById('wait2').style.display = "none";
+
+				setTimeout(function(){
+
+					document.getElementById('wait').style.display = "inline-block";
+			  		document.getElementById('wait2').style.display = "inline-block";
+			  	
+			  		var array = [];
+					for (var i = 0; i < 4; i++) {
+					    var selector = '' + i;
+					    if (selector.length == 1)
+					        selector = '0' + selector;
+					    selector = '#option' + selector;
+					    showText(selector, msg, 0, 55);
+					    $(selector).html("");
+					}
+				}, 300);
+
+
+
+
+				
+				
+
+			}; 
