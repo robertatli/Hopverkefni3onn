@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="../css/stilsida.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../auka/back.js"></script>
         <title></title>
         <script>
             function CloseMe() 
@@ -17,10 +18,6 @@
                 //validation code to see State field is mandatory.  
                 }
             }
-            history.pushState(null, null, document.title);
-            window.addEventListener('popstate', function () {
-                history.pushState(null, null, document.title);
-            });
         </script>
         <style>
             img{
