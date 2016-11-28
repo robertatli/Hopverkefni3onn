@@ -37,6 +37,7 @@
 
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	 <script>
+
 		    var showText = function (target, message, index, interval) {    
 			  	if (index < message.length) { 
 			    	$(target).append(message[index++]); 
@@ -44,15 +45,18 @@
 			  		} 
 			}
 			    
+
 			$(function () { 
 			 
 			  showText("#msg", "Hello my name's Willy!, What can I do for you?", 0, 55);
 			  document.getElementById('wait').style.display = "none";
 			  document.getElementById('wait2').style.display = "none";
 			  
+
 			  setTimeout(function(){
 			  document.getElementById('wait').style.display = "inline-block";
 			  document.getElementById('wait2').style.display = "inline-block";
+
 			  showText("#option1", "adsasd", 0, 55); 
 			  showText("#option2", "asdsdad", 0, 55);  
 			}, 3000);
@@ -73,6 +77,7 @@
 			  		$("#option4").html("");
 				}, 300);
 				
+
 			}; 
 	</script>
 </body>
