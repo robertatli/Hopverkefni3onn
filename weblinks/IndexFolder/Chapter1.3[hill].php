@@ -5,11 +5,11 @@
 	<link rel="stylesheet" href="../css/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <!----<script src="../auka/back.js"></script>--->
 </head>
 
 <body>
 	<div class="scroll">
+	<?php include("../auka/character.php"); ?>
 		<div class="wrapper2">
 			<div class="textmanager">
 			<header>

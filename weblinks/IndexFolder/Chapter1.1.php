@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="../css/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <!----<script src="../auka/back.js"></script>--->
 </head>
 
 <body>
@@ -21,10 +20,10 @@
 			As you lay down in your bed you quickly fall asleep dreaming of the fortune that awaits you. <br><br> The next day you gather your things and head out and decide to go explore the surroundings. You see the two men are outside. You approach them and ask them about the...
 			<br><br><br>
 			<form action="./chapter1.2[cave].php" style="float:left;padding-left:27%;">
-    			<strong><input type="submit" value="Cave" class="button" /></strong>
+    			<strong><input type="submit" value="Cave" class="button" onmouseover="style='filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='filter: none;'"/></strong>
 			</form>
 			<form action="./chapter1.2[tre].php" style=" float:right;padding-right:27%;">
-    			<strong><input type="submit" value="Tree" class="button" /></strong>
+    			<strong><input type="submit" value="Tree" class="button" onmouseover="style='filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='filter: none;'" /></strong>
 			</form>
 				
 			</div>

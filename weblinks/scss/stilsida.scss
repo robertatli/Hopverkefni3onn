@@ -2,9 +2,9 @@ body{
 	background-image: url("../pixels/dungeonwall.png");
 	background-size:3%;
 	margin: 0 auto;
+  max-height: 100%;
 	font-family:'Merchant-Copy-Normal';
 	cursor: url('../auka/cursor.ico'), default;
-    overflow: hidden;
 }
 @font-face{
 	font-family: 'Merchant-Copy-Normal';
@@ -46,7 +46,6 @@ a{
 	color: black;
 	cursor: url('../auka/cursor.ico'), default;
 }
-
 .wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -149,4 +148,18 @@ div.speech2::before {
 }
 div.speech2:hover{
 	background-color: #bfac72;
+}
+.Book {
+}
+.Book > section {
+    display: none;
+}
+.Book > section:target {
+    display: block;
+}
+.Book > .intro {
+    display: block;
+}
+.Book > section:target ~ .intro {
+    display: none;
 }
