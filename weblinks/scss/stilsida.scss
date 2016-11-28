@@ -123,9 +123,8 @@ div.speech::before {
         -webkit-transform: rotate( 29deg ) skew( -35deg );
     width:  20px;
 }
-div.speech2{
+a.speech2{
 	background-color:#ae9b61;
-	float:left;
 	box-shadow: 1px 1px 6px #897432;
     border-radius: 5px;
     display: inline-block;
@@ -133,7 +132,7 @@ div.speech2{
     position: relative;
     vertical-align: top;
 }
-div.speech2::before {
+a.speech2::before {
     background-color: #bfac72;
     display: block;
     height: 16px;
@@ -146,7 +145,7 @@ div.speech2::before {
         -webkit-transform: rotate( 29deg ) skew( -35deg );
     width:  20px;
 }
-div.speech2:hover{
+a.speech2:hover{
 	background-color: #bfac72;
 }
 .Book {
