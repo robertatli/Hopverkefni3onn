@@ -17,10 +17,10 @@
 				<h2>Choose your Hero!</h2>
 			</header>
 			<div class="Gender">
-				<a href="./IndexFolder/Prologue.php">
+				<a href="./IndexFolder/Prologue.php?id=male">
 					<img src="./pixels/big/GenericMaleLarge.png" onmouseover="this.src='./pixels/big/GenericMaleLargeHover.png'" onmouseout="this.src='./pixels/big/GenericMaleLarge.png'">
 				</a>
-				<a href="./IndexFolder/Prologue.php">
+				<a href="./IndexFolder/Prologue.php?id=female">
 					<img src="./pixels/big/GenericFemaleLarge.png" onmouseover="this.src='./pixels/big/GenericFemaleLargeHover.png'" onmouseout="this.src='./pixels/big/GenericFemaleLarge.png'">
 				</a>
 			</div>

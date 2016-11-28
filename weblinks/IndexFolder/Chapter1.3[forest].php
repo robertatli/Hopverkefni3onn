@@ -11,6 +11,7 @@
 
     <body>
         <div class="scroll">
+        <?php include("../auka/character.php"); ?>
             <div class="wrapper2">
                 <div class="textmanager">
                 <header>
