@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/stilsida.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../auka/back.js"></script>
+    <!----<script src="../auka/back.js"></script>--->
 </head>
 
 <body>
