@@ -1,3 +1,26 @@
+@media only screen and (max-width: 20em) {
+    body{
+        zoom: 32%;
+    }
+}
+@media only screen and (max-width: 23.438em) {
+    body{
+        zoom: 38%;
+    }
+}
+@media only screen and (max-width: 25.875em) {
+    body{
+        zoom: 43%;
+    }
+}
+@media only screen and (max-width: 48em) {
+    body{
+        zoom: 78%;
+    }
+}
+
+
+
 body{
 	background-image: url("../pixels/dungeonwall.png");
 	background-size:3%;
@@ -5,6 +28,13 @@ body{
   max-height: 100%;
 	font-family:'Merchant-Copy-Normal';
 	cursor: url('../auka/cursor.ico'), default;
+    zoom: 90%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 @font-face{
 	font-family: 'Merchant-Copy-Normal';
