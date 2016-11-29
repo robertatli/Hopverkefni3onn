@@ -21,10 +21,10 @@
 			<br><br><br>
                 <div class="Gender">
 				<a href="./chapter1.2[cave].php">
-					<img src="../pixels/big/Cave.png" onmouseover="style='filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='filter: none;'">
+					<img src="../pixels/big/Cave.png" style="width:200px;height: 200px;" onmouseover="style='width:200px;height: 200px;filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='width:200px;height: 200px;filter: none;'">
 				</a>
 				<a href="./chapter1.2[tre].php">
-					<img src="../pixels/big/Tree.png" onmouseover="style='filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='filter: none;'">
+					<img src="../pixels/big/Tree.png" style="width:200px;height: 200px;" onmouseover="style='width:200px;height: 200px;filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='width:200px;height: 200px;filter: none;'">
 				</a>
 				</div>
 				

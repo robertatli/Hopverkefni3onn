@@ -16,7 +16,7 @@
 				<h3>Chapter 1.3</h3>
 				<span class="h4">The Hill</span>
 			</header>
-				
+			You get closer to the hill and notice a entrance to a cave. You think to yourself that this must be where the sword is hidden. The cave looks dark and dangerous but filled with adventure.
 			</div>
 			
 			
