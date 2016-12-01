@@ -21,9 +21,10 @@
 				Your story starts in a quiet Inn in the center of a small village a few miles away from the Evil Queens Castle.
 			</div>
 			<br><br><br>
-			<form action="./chapter1.1.php">
-    			<strong><input type="submit" value="Begin" class="button" /></strong>
-			</form>
+            <div style="text-align:center;">
+            <a class="button" href="chapter1.1.php?id=male" style="width:100px">
+    			<strong>Begin</strong>
+            </a></div>
 		</div>			
 	</div>
 </body>

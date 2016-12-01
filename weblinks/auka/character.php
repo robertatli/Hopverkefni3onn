@@ -5,6 +5,9 @@ if(isset($_GET['id'])){
     $_SESSION['chest'] = 'none';
     $_SESSION['legs'] = 'none';
     $_SESSION{'boots'} = 'none';
+    $inventory = array('','','','','','');
+    $Silfur = 3;
+    $Gull = 0;
 }
 else{ ?>
 <script>
@@ -20,15 +23,13 @@ else{ ?>
         top: 0;
         right: 10%;
         z-index:4;
-        height:960px;
+        height:80%;
         width: 320px;
-        margin-top:2em;
+        margin-top:5%;
         margin-left:2em;
-        margin-bottom:-14em;
         background: rgba(90,90,90,1);
         border-radius:25px;
         border: 10px solid transparent;
-        text-align: center;
         -webkit-border-image: url(http://i36.tinypic.com/4tkqhi.jpg) 20% round;
         -o-border-image: url(http://i36.tinypic.com/4tkqhi.jpg) 20% round;
         border-image: url(http://i36.tinypic.com/4tkqhi.jpg) 20% round;
@@ -50,16 +51,26 @@ else{ ?>
         border-image: url(http://i36.tinypic.com/4tkqhi.jpg) 20% round;
     }
     .inventoryslot{
-        width: 150px;
-        height: 150px;
-        margin: 2px;
-        margin-left: 5px;
-        background: rgba(120,120,120,1);
+        width: 46%;
+        height: 46%;
+        margin: 2%;
+        margin-left: 2%;
         border-radius: 25px;
         float: left;
     }
-    .inventoryslot #1{
-        content: "Joe's Task:";
+    <?php for($i = 0; $i <= 5; $i++){ ?>
+    #nr<?php echo $i + 1 ?>{
+        background: url("../pixels/Numbers/<?php echo $i + 1 ?>.png") rgba(120,120,120,1) no-repeat;
+        background-size: 30%;
+    }
+    <?php } ?>
+    .weapon,
+    .chest,
+    .legs,
+    .boots{
+        height: 50%;
+        width: 50%;
+        float: left;
     }
     .chest{
         background: url('../pixels/Armor/Chest_Icon.png');
@@ -73,6 +84,34 @@ else{ ?>
         background: url('../pixels/Armor/Boots_Icon.png');
         background-size: 100%;
     }
+    .inventory img{
+        height: 80%;
+        width: 80%;
+        margin: 10%;
+    }
+    .coinS img,
+    .coinG img{
+        height: 100%;
+        width: auto;
+    }
+    .coinS{
+        font-family: 'Merchant-Copy-Normal';
+        height: 8%;
+        float: right;
+        margin: 0;
+        margin-top: 0%;
+        font-size: 1em;
+        padding-bottom: 6px;
+        font-size: 3em;
+    }
+    .coinG{
+        height: 8%;
+        float: right;
+        margin: 0;
+        margin-top: -27%;
+        padding-bottom: 6px;
+        font-size: 3em;
+    }
 </style>
 <div class="character-set">
     <?php if(isset($_SESSION['id']) === 'false'){ ?>
@@ -85,8 +124,10 @@ else{ ?>
     <?php if($_SESSION['id'] === 'male'){ ?>../pixels/big/GenericMaleLarge.png<?php }
     else if($_SESSION['id'] === 'female'){ ?>../pixels/big/GenericFemaleLarge.png<?php
     } ?>">
+    <p class="coinS"><?php echo $Silfur ?> x <img src="../pixels/Items/Silver_Coin.png"></p>
+    <p class="coinG"><?php echo $Gull ?> x <img src="../pixels/Items/Gold_Coin.png"></p>
     <div class="armorset">  
-    <img style="height:140px;width:140px;padding-bottom:0;" src="
+    <img class="weapon" src="
         <?php if($_SESSION['weapon'] === 'stick'){ ?>
             ../pixels/Weapons/stick.png
         <?php }
@@ -108,7 +149,7 @@ else{ ?>
         else if($_SESSION['weapon'] === 'king'){ ?>
             ../pixels/Weapons/TheSword.png
         <?php } ?>">
-        <img class="chest" style="height:140px;width:140px;" src="
+        <img class="chest" src="
         <?php if(isset($_SESSION['chest'])){
             if($_SESSION['chest'] === ''){ ?>
                 ../pixels/Armor/.png
@@ -116,7 +157,7 @@ else{ ?>
                 ../pixels/Armor/x.png
             <?php } ?>
         <?php } ?>">
-        <img class="legs" style="height:140px;width:140px;" src="
+        <img class="legs" src="
         <?php if(isset($_SESSION['legs'])){
             if($_SESSION['legs'] === ''){ ?>
                 ../pixels/Armor/.png
@@ -124,7 +165,7 @@ else{ ?>
                 ../pixels/Armor/x.png
             <?php } ?>
         <?php } ?>">
-        <img class="boots" style="height:140px;width:140px;" src="
+        <img class="boots" src="
         <?php if(isset($_SESSION['boots'])){
             if($_SESSION['boots'] === ''){ ?>
                 ../pixels/Armor/.png
@@ -133,13 +174,26 @@ else{ ?>
             <?php } ?>
         <?php } ?>">
     </div>
-    <div class="inventory">
-        <div class="inventoryslot" id="1"></div>
-        <div class="inventoryslot" id="2"></div>
-        <div class="inventoryslot" id="3"></div>
-        <div class="inventoryslot" id="4"></div>
-        <div class="inventoryslot" id="5"></div>
-        <div class="inventoryslot" id="6"></div>
+    <div class="inventory"><?php for($i = 0; $i <= 5; $i++){ 
+        if($inventory[$i] === 'Silver_Coin'){
+            $item = 'Silver_Coin';
+        }else if($inventory[$i] === 'Gold_Coin'){
+            $item = 'Gold_Coin';
+        }else if($inventory[$i] === 'Fish'){
+            $item = 'Fish';
+        }else{
+            $item = '';
+        }
+        
+        ?>
+        <div class="inventoryslot" id="nr<?php echo $i + 1 ?>">
+            <?php if($item === ''){
+            
+        }else{?>
+            <img src="../pixels/Items/<?php echo $item ?>.png">
+            <?php } ?>
+        </div>
+        <?php } ?>
     </div>
 <?php } ?>
 </div>
