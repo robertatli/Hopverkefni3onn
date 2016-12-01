@@ -22,7 +22,7 @@
 			</div>
 			<br><br><br>
             <div style="text-align:center;">
-            <a class="button" href="chapter1.1.php?id=male" style="width:100px">
+            <a class="button" href="chapter1.1.php" style="width:100px">
     			<strong>Begin</strong>
             </a></div>
 		</div>			

@@ -9,6 +9,15 @@ if(isset($_GET['id'])){
     $Silfur = 3;
     $Gull = 0;
 }
+if(isset($_SESSION['id'])){
+    $_SESSION['weapon'] = 'stick';
+    $_SESSION['chest'] = 'none';
+    $_SESSION['legs'] = 'none';
+    $_SESSION{'boots'} = 'none';
+    $inventory = array('','','','','','');
+    $Silfur = 3;
+    $Gull = 0;
+}
 else{ ?>
 <script>
 </script>
