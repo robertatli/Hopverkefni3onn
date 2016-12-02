@@ -5,18 +5,19 @@ if(isset($_GET['id'])){
     $_SESSION['chest'] = 'none';
     $_SESSION['legs'] = 'none';
     $_SESSION{'boots'} = 'none';
-    $inventory = array('','','','','','');
-    $Silfur = 3;
-    $Gull = 0;
+    $inventory = array();
+    $_SESSION['inventory'] = $inventory;
+    $_SESSION['silfur'] = 3;
+    $_SESSION['gull'] = 0;
 }
 if(isset($_SESSION['id'])){
-    $_SESSION['weapon'] = 'stick';
-    $_SESSION['chest'] = 'none';
-    $_SESSION['legs'] = 'none';
-    $_SESSION{'boots'} = 'none';
-    $inventory = array('','','','','','');
-    $Silfur = 3;
-    $Gull = 0;
+    $_SESSION['weapon'] = $_SESSION['weapon'];
+    $_SESSION['chest'] = $_SESSION['chest'];
+    $_SESSION['legs'] = $_SESSION['legs'];
+    $_SESSION['boots'] = $_SESSION['boots'];
+    $_SESSION['inventory'] = $_SESSION['inventory'];
+    $_SESSION['silfur'] = $_SESSION['silfur'];
+    $_SESSION['gull'] = $_SESSION['gull'];
 }
 else{ ?>
 <script>
@@ -30,7 +31,7 @@ else{ ?>
         position:fixed;
         bottom:14em;
         top: 0;
-        right: 10%;
+        right: 0;
         z-index:4;
         height:80%;
         width: 320px;
@@ -133,31 +134,10 @@ else{ ?>
     <?php if($_SESSION['id'] === 'male'){ ?>../pixels/big/GenericMaleLarge.png<?php }
     else if($_SESSION['id'] === 'female'){ ?>../pixels/big/GenericFemaleLarge.png<?php
     } ?>">
-    <p class="coinS"><?php echo $Silfur ?> x <img src="../pixels/Items/Silver_Coin.png"></p>
-    <p class="coinG"><?php echo $Gull ?> x <img src="../pixels/Items/Gold_Coin.png"></p>
+    <p class="coinS"><?php echo $_SESSION['silfur'] ?> x <img src="../pixels/Items/Silver_Coin.png"></p>
+    <p class="coinG"><?php echo $_SESSION['gull'] ?> x <img src="../pixels/Items/Gold_Coin.png"></p>
     <div class="armorset">  
-    <img class="weapon" src="
-        <?php if($_SESSION['weapon'] === 'stick'){ ?>
-            ../pixels/Weapons/stick.png
-        <?php }
-        else if($_SESSION['weapon'] === 'wood'){ ?>
-            ../pixels/Weapons/Wood.png
-        <?php }
-        else if($_SESSION['weapon'] === 'stone'){ ?>
-            ../pixels/Weapons/Stone.png
-        <?php }
-        else if($_SESSION['weapon'] === 'iron'){ ?>
-            ../pixels/Weapons/Iron.png
-        <?php }
-        else if($_SESSION['weapon'] === 'blood'){ ?>
-            ../pixels/Weapons/Blood.png
-        <?php }
-        else if($_SESSION['weapon'] === 'pink'){ ?>
-            ../pixels/Weapons/Pink.png
-        <?php }
-        else if($_SESSION['weapon'] === 'king'){ ?>
-            ../pixels/Weapons/TheSword.png
-        <?php } ?>">
+    <img class="weapon" src="../pixels/Weapons/<?php echo $_SESSION['weapon'] ?>.png">
         <img class="chest" src="
         <?php if(isset($_SESSION['chest'])){
             if($_SESSION['chest'] === ''){ ?>
@@ -183,12 +163,9 @@ else{ ?>
             <?php } ?>
         <?php } ?>">
     </div>
-    <div class="inventory"><?php for($i = 0; $i <= 5; $i++){ 
-        if($inventory[$i] === 'Silver_Coin'){
-            $item = 'Silver_Coin';
-        }else if($inventory[$i] === 'Gold_Coin'){
-            $item = 'Gold_Coin';
-        }else if($inventory[$i] === 'Fish'){
+    <?php $inventory = $_SESSION['inventory']; ?>
+    <div class="inventory"><?php for($i = 0; $i <= count($inventory)-1; $i++){ 
+        if($inventory[$i] === 'Fish'){
             $item = 'Fish';
         }else{
             $item = '';

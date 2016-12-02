@@ -56,17 +56,49 @@
 						<div class="speech" id="002">
 						"Yes! I have plenty of fish. Would you like to buy some?"
 						</div><br><br><br>
-						<a href="#004" class="speech2">Buy some fish</a><br><br><a href="#005" class="speech2">Dont buy fish</a><br><br>
+						<a href="#004?sida=sida4" class="speech2">Buy some fish</a><br><br><a href="#005" class="speech2">Dont buy fish</a><br><br>
 					</section>
 
 
 
-					<section id="004">You buy some fish
-					<br><img src="../pixels/characters/willy.png" style="width:200px;height: 200px;"><br>
+					<section id="004?sida=sida4">
+							
+					<?php
+					if(isset($_GET['sida'])){
+
+
+					}
+					else{
+						if(($_SESSION['silfur']-1) >= 0) {
+							$_SESSION['silfur'] = $_SESSION['silfur'] - 1;
+							array_push($_SESSION['inventory'], 'Fish');}
+					}
+					 ?>
+					You buy some fish
+						<br><img src="../pixels/characters/willy.png" style="width:200px;height: 200px;"><br>
 						<div class="speech" id="002">
 						"Here you Go, will that be all?"
 						</div><br><br><br>
 						<a href="./chapter1.4[shortcut].php" class="speech2">Thank him and head to the small road</a><br><br><a href="./chapter1.2[cave].php" class="speech2">Go back to the crossroads</a><br><br>
+					</section>
+					<section id="006">
+						You buy some fish
+						<br><img src="../pixels/characters/willy.png" style="width:200px;height: 200px;"><br>
+						<div class="speech" id="002">
+						"Here you Go, will that be all?"
+						</div><br><br><br>
+						<a href="./chapter1.4[shortcut].php" class="speech2">Thank him and head to the small road</a><br><br><a href="./chapter1.2[cave].php" class="speech2">Go back to the crossroads</a><br><br>
+					
+
+					</section>
+					<section id="007">
+						Your backpack is full.
+						<br><img src="../pixels/characters/willy.png" style="width:200px;height: 200px;"><br>
+						<div class="speech" id="002">
+						"You cant carry any more"
+						</div><br><br><br>
+						<a href="./chapter1.4[shortcut].php" class="speech2">Thank him and head to the small road</a><br><br><a href="./chapter1.2[cave].php" class="speech2">Go back to the crossroads</a><br><br>
+					
 
 					</section>
 

@@ -17,7 +17,7 @@
 				<span class="h4">The four roads</span>
 			</header>
 			You are on a four way crossroad. The first road leads to where the cave is. The second, to the tree. Third to the Town and the fourth to the Inn.
-			<br><br><br>
+			<br><br><br><br><br><br>
                 <div class="Gender">
 				<a href="./chapter1.2[cave].php">
 					<img src="../pixels/big/Cave.png" style="width:200px;height: 200px;" onmouseover="style='width:200px;height: 200px;filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='width:200px;height: 200px;filter: none;'">
