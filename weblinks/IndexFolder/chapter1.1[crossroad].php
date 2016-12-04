@@ -25,7 +25,7 @@
 				<a href="./chapter1.2[tre].php">
 					<img src="../pixels/big/Tree.png" style="width:200px;height: 200px;" onmouseover="style='width:200px;height: 200px;filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='width:200px;height: 200px;filter: none;'">
 				</a>
-				<a href="./chapter1.2[tre].php">
+				<a href="./chapter1[town].php">
 					<img src="../pixels/town.png" style="width:200px;height: 200px;" onmouseover="style='width:200px;height: 200px;filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='width:200px;height: 200px;filter: none;'">
 				</a>
 				<br><br>

@@ -19,7 +19,7 @@
                 </header>
                     As you walk into the forest you notice something moving in the bushes. It seems large.<br><br>Continue walking or investigate the bushes<br><br><br>
 				<div class="Gender">
-				<a href="./Chapter1.4[forest].php">
+				<a href="./Chapter2.1[thetree].php">
 					<img src="../pixels/forestroad.png" onmouseover="style='filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='filter: none;'">
 				</a>
 				<a href="./Chapter1.4[bush].php">

@@ -18,8 +18,8 @@
 			</header>
 			You get closer to the hill and notice a entrance to a cave. You think to yourself that this must be where the sword is hidden. The cave looks dark and dangerous but filled with adventure.
 			</div>
-			
-			<h3>End of chapter 1</h3>
+			<h4 style="position: relative;top:300px;font-family: 'Merchant-Copy-Large';font-size: 20px;">For now...<br>The adventure ends here</h4>
+			<h3 style="position: relative;top:380px;">End of chapter 1</h3>
 		</div>			
 	</div>
 </body>

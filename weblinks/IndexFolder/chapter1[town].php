@@ -13,14 +13,12 @@
 		<div class="wrapper2">
 			<div class="textmanager">
 			<header>
-				<h3>Chapter 1.3</h3>
-				<span class="h4">The Cottage</span>
+				<h3>Chapter 2.1</h3>
+				<span class="h4">The huge tree</span>
 			</header>
-				You approach the cottage and see smoke from the chimney. You walk to the door and hear chatter inside.
+				You enter the town. Here you can buy and sell items and many more things.
 				<h4 style="position: relative;top:300px;font-family: 'Merchant-Copy-Large';font-size: 20px;">For now...<br>The adventure ends here</h4>
 			</div>
-			
-			
 		</div>			
 	</div>
 </body>
