@@ -19,7 +19,7 @@
 			You get closer to the hill and notice a entrance to a cave. You think to yourself that this must be where the sword is hidden. The cave looks dark and dangerous but filled with adventure.
 			</div>
 			
-			
+			<h3>End of chapter 1</h3>
 		</div>			
 	</div>
 </body>

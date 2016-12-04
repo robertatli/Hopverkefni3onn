@@ -38,7 +38,7 @@
 				<a href="../index.php">
 					<img src="../pixels/Reset.png" onmouseover="style='filter: gray;filter: grayscale(1);webkit-filter: grayscale(1);'" onmouseout="style='filter: none;'">
 				</a>
-                    <a onclick="CloseMe()"  id="Save">
+                    <a onclick="CloseMe()" id="Save">
 					<img src="../pixels/Skull.png" onmouseover="style='filter: invert(20%);'" onmouseout="style='filter: none;'">
 				</a>
 			</div>
